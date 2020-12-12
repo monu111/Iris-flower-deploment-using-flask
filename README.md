@@ -27,6 +27,7 @@ This downloads the repository from Github to your local machine
 Change your current working directory to this.
 #### step 3:
 > pip install pipreqs
+
 > pipreqs                          (in current working directory)
 
 It install the required libraries in your working directiory.
@@ -41,7 +42,7 @@ on heruko platform and connect your repo the heroku platform. run this on the pl
 web: gunicorn app:app
 
 
-### Note: add the this requrement given belown in your requrement.txt file before deployment.
+### Note: add this requirement given below, in your "requrement.txt" file before deployment.
 gunicorn==20.0.4
 
 
