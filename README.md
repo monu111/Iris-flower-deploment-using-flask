@@ -25,18 +25,19 @@ This downloads the repository from Github to your local machine
 > cd Iris-webapp-on-heroku
 
 Change your current working directory to this.
-#### step 3:
+
+#### step 3: (remember you should be in your current working directry)
 > pip install pipreqs
 
-> pipreqs                          (in current working directory)
+> pipreqs                          
 
 It install the required libraries in your working directiory.
 
 #### step 4
-Run the "__app.py__' and tap the address which will be given in the terminal output of your IDE.
+Run the "__app.py__'.
 
 ### step 5
-If anybody wants  to deploy this app to heroku.Then create Procfile file, add this statement given below.which basically  run the app on heroku cloud.After then make a account 
+If anybody wants to deploy this app to heroku.Then create Procfile file, add this statement given below.which basically  run the app on heroku cloud.After then make a account 
 on heruko platform and connect your repo the heroku platform. run this on the platform.
 
 web: gunicorn app:app
