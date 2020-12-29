@@ -46,5 +46,3 @@ web: gunicorn app:app
 ### Note: add this requirement given below, in your "requrement.txt" file before deployment.
 gunicorn==20.0.4
 
-
-# Working on it!
